@@ -1,0 +1,41 @@
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+#header-logo {
+  width: 160px;
+}
+
+#header {
+  font-size: 18px;
+  margin: 43px 0;
+}
+
+#header a {
+  color: #1f1534;
+}
+
+#header a:hover {
+  color: #458ff6;
+}
+
+.navbar-nav li {
+  margin: 0 20px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+  font-weight: 400;
+}
