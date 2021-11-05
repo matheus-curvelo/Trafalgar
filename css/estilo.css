@@ -5,17 +5,28 @@ body {
 
 h1 {
   font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  margin: 25px 0;
+  margin: 0;
 }
 
 h2 {
+  font-size: 36px;
+}
+
+h1,
+h2 {
+  line-height: 56px;
+  font-weight: 700;
+}
+
+h3 {
   font-size: 21px;
   font-weight: 300;
   line-height: 32px;
-  margin: 25px 0;
   color: #7d7987;
+}
+
+.margin-banner {
+  margin: 25px 0 45px 0;
 }
 
 /* BUTTONS */
@@ -47,7 +58,9 @@ h2 {
 
 header {
   font-size: 18px;
-  margin: 43px 0 71px 0;
+  height: 177px;
+  display: flex;
+  align-items: center;
 }
 
 #header-logo {
@@ -75,23 +88,18 @@ header {
   font-weight: 400;
 }
 
-.container-fluid {
-  padding: 0;
-}
-
 /* HEADER */
 
 /* BANNER */
 
 .info-banner {
-  margin: 115px 127px 0 0;
+  width: 445px;
+  height: 338px;
+  margin-top: 115px;
 }
 
 #banner img {
   width: 693px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* BANNER */
