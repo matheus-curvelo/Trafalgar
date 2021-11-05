@@ -4,21 +4,42 @@ body {
 }
 
 h1 {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 56px;
-    margin: 25px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin: 25px 0;
 }
 
-h2{
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 32px;
-    margin: 25px 0;
-    color: #7d7987;
+h2 {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 25px 0;
+  color: #7d7987;
 }
 
 /* BUTTONS */
+
+.btn {
+  width: 200px;
+  height: 56px;
+  line-height: 52px;
+  border-radius: 55px;
+  border: solid 1px #458ff6;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #458ff6;
+  color: #ffffff;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #458ff6;
+}
 
 /* BUTTONS */
 
@@ -45,8 +66,6 @@ header {
   margin: 0 12px;
 }
 
-
-
 .navbar-collapse {
   flex-grow: 0;
 }
@@ -56,21 +75,21 @@ header {
   font-weight: 400;
 }
 
-.container-fluid{
-    padding: 0;
+.container-fluid {
+  padding: 0;
 }
 
 /* HEADER */
 
 /* BANNER */
 
-.info-banner{
-    margin: 115px 127px 0 0;
+.info-banner {
+  margin: 115px 127px 0 0;
 }
 
-#banner img{
-    width: 693px;
-    display: block;
+#banner img {
+  width: 693px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
