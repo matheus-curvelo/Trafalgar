@@ -67,9 +67,9 @@ h4 {
 
 header {
   font-size: 18px;
-  height: 177px;
   display: flex;
   align-items: center;
+  padding: 55px 0;
 }
 
 #header-logo {
@@ -117,7 +117,7 @@ header {
 
 /* BANNER */
 
-.our-services {
+.section-title {
   margin-bottom: 26px;
 }
 
@@ -129,7 +129,6 @@ header {
 }
 
 .text-services {
-  width: 952px;
   margin: auto;
   margin-top: 33px;
   margin-bottom: 80px;
