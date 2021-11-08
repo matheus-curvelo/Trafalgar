@@ -20,9 +20,18 @@ h2 {
 
 h3 {
   font-size: 21px;
-  font-weight: 300;
   line-height: 32px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h3,
+h4 {
   color: #7d7987;
+  font-weight: 300;
 }
 
 .margin-banner {
@@ -92,14 +101,36 @@ header {
 
 /* BANNER */
 
-.info-banner {
-  width: 445px;
-  height: 338px;
-  margin-top: 115px;
+#banner {
+  margin-bottom: 192px;
 }
 
 #banner img {
   width: 693px;
 }
 
+.info-banner {
+  width: 445px;
+  height: 338px;
+  margin-top: 115px;
+}
+
 /* BANNER */
+
+.our-services {
+  margin-bottom: 26px;
+}
+
+.retangle {
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+  background: #000000;
+}
+
+.text-services {
+  width: 952px;
+  margin: auto;
+  margin-top: 33px;
+  margin-bottom: 80px;
+}
