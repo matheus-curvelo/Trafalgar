@@ -1,0 +1,38 @@
+// Cores
+$black: #000000;
+$black2: #202024;
+
+$white: #ffffff;
+$white2: #fbfbfb;
+
+$blue: #2086b7;
+$blueLight: #189cdc;
+$blueDark: #0d597d;
+
+// Contextos
+$primary: $blue;
+$primaryLight: $blueLight;
+$primaryDark: $blueDark;
+
+$light: $white;
+$light2: $white2;
+
+$dark: $black;
+$dark2: $black2;
+
+// Breakpoints
+$xsMax: 575px;
+
+$smMin: 576px;
+$smMax: 767px;
+
+$mdMin: 768px;
+$mdMax: 991px;
+
+$lgMin: 992px;
+$lgMax: 1199px;
+
+$xlMin: 1200px;
+$xlMax: 1399px;
+
+$xxlMin: 1400px;

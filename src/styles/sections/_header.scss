@@ -1,0 +1,27 @@
+#header {
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	padding: 55px 0;
+	a {
+		color: #1f1534;
+		&:hover {
+			color: #458ff6;
+		}
+	}
+}
+#header-logo {
+	width: 160px;
+}
+.navbar-nav {
+	li {
+		margin: 0 12px;
+	}
+}
+.navbar-collapse {
+	flex-grow: 0;
+}
+.nav-buttons {
+	opacity: 0.5;
+	font-weight: 400;
+}

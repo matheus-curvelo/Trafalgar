@@ -16,7 +16,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-            'images': path.resolve(__dirname, 'src/assets/img'),
+            'images': path.resolve(__dirname, 'src/assets/images'),
             'icons': path.resolve(__dirname, 'src/assets/icons')
         }
     },
@@ -32,7 +32,7 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 {
-                    from: path.resolve(__dirname, './src/assets/img'),
+                    from: path.resolve(__dirname, './src/assets/images'),
                     to: path.resolve(__dirname, 'public/assets/images')
                 },
                 {
@@ -73,7 +73,11 @@ module.exports = {
         ]  
     },
     devServer: {
-        static: path.resolve(__dirname, './public/assets'),
-        hot: true
+        static: [
+            path.resolve(__dirname, './src/index.html'),
+            path.resolve(__dirname, './src/assets')
+        ],
+        hot: true,
+        liveReload: true,
     }
 }
