@@ -1,13 +1,16 @@
 // Cores
 $black: #000000;
-$black2: #202024;
+$black2: #1F1534;
+
+$gray: #7D7987;
 
 $white: #ffffff;
-$white2: #fbfbfb;
+$white2: #E5E5E5;
 
-$blue: #2086b7;
-$blueLight: #189cdc;
-$blueDark: #0d597d;
+$blue: #458FF6;
+$blueLight: #67C3F3;
+$blueDark: #5A98F2
+;
 
 // Contextos
 $primary: $blue;
@@ -19,6 +22,8 @@ $light2: $white2;
 
 $dark: $black;
 $dark2: $black2;
+
+$secondary: $gray;
 
 // Breakpoints
 $xsMax: 575px;
