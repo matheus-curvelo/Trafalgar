@@ -5,6 +5,10 @@
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
   margin: 0 auto 37px;
+
+  img {
+    margin: 54px 220px 22px 37px;
+  }
 }
 .spacing-card {
   margin-left: 60px;
@@ -12,5 +16,10 @@
 }
 
 .card-content {
-  padding: 50px 50px 50px 38px;
+  padding: 50px 50px 22px 38px;
+}
+
+.m-card {
+  margin-left: 38px;
+  margin-right: 38px;
 }
