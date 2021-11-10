@@ -10,8 +10,16 @@
   margin-top: 37px;
 }
 
-.mt-220 {
-  margin-top: 220px;
+@media (min-width: $mdMax) {
+  .mt-220 {
+    margin-top: 220px;
+  }
+}
+
+@media (max-width: $lgMin) {
+  .mt-220 {
+    margin-top: 50px;
+  }
 }
 
 .mt-229 {

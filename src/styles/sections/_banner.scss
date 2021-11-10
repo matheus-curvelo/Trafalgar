@@ -34,16 +34,14 @@
   }
 }
 
-@media (min-width: $mdMax) { 
+@media (min-width: $mdMax) {
   .mb-192 {
     margin-bottom: 192px;
   }
- }
+}
 
- @media (max-width: $lgMin) { 
+@media (max-width: $lgMin) {
   .mb-192 {
     margin-bottom: 142px;
   }
-  }
-
-
+}
