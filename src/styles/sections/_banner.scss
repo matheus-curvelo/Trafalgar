@@ -2,6 +2,15 @@
   img {
     width: 693px;
   }
+
+  @media (max-width: $lgMin) {
+    img {
+      width: 75%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 
 .m-banner {
