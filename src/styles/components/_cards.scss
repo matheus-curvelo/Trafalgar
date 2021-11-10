@@ -2,18 +2,6 @@
   margin-bottom: 32px;
 }
 
-@media (min-width: $mdMax) {
-  .cards {
-    margin-bottom: 32px;
-  }
-}
-
-@media (max-width: $lgMin) {
-  .cards {
-    margin-bottom: 78px;
-  }
-}
-
 .cards-services {
   min-height: 346px;
   padding: 54px 45px 46px 37px;
