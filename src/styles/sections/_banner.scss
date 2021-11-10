@@ -18,9 +18,20 @@
 }
 
 .info-banner {
-  width: 445px;
-  height: 338px;
-  margin-top: 115px;
+  margin: 106px 109px 0 0;
+}
+
+@media (max-width: $mdMax) {
+  .info-banner {
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: $lgMin) and (max-width: $lgMax) {
+  .info-banner {
+    margin-top: 40px;
+  }
 }
 
 .mb-192 {
