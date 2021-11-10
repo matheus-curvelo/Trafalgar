@@ -15,26 +15,28 @@
 }
 
 .cards-services {
-  height: 354px;
+  min-height: 346px;
+  padding: 54px 45px 46px 37px;
+
   background: $light;
-  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  box-shadow: 5px 12px 12px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
   margin: 0 auto 37px;
 
   img {
-    margin: 54px 220px 22px 37px;
+    display: block;
+  }
+
+  @media (max-width: $xsMax) {
+    img {
+      scale: 75%;
+    }
   }
 }
-.spacing-card {
-  margin-left: 60px;
-  margin-right: 60px;
-}
 
-.card-content {
-  padding: 50px 50px 22px 38px;
-}
-
-.m-card {
-  margin-left: 38px;
-  margin-right: 38px;
+@media (min-width: $xsMax) {
+  .spacing-card {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
 }
