@@ -1,27 +1,27 @@
 #header {
-	font-size: 18px;
-	display: flex;
-	align-items: center;
-	padding: 55px 0;
-	a {
-		color: $dark2;
-		&:hover {
-			color: $primary;
-		}
-	}
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 55px 0;
+  a {
+    color: $dark2;
+    &:hover {
+      color: $primary;
+    }
+  }
 }
 #header-logo {
-	width: 160px;
+  width: 160px;
 }
 .navbar-nav {
-	li {
-		margin: 0 12px;
-	}
+  li {
+    margin: 0 12px;
+  }
 }
 .navbar-collapse {
-	flex-grow: 0;
+  flex-grow: 0;
 }
 .nav-buttons {
-	opacity: 0.5;
-	font-weight: 400;
+  opacity: 0.5;
+  font-weight: 400;
 }

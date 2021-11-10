@@ -3,12 +3,10 @@
   height: 2px;
   border-radius: 5px;
   background: $dark;
-}
-
-.line-start {
-  margin-left: 0;
+  margin: 26px 0 33px 0;
 }
 
 .line-center {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }

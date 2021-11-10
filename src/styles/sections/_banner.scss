@@ -1,11 +1,10 @@
 #banner {
-  margin-bottom: 192px;
   img {
     width: 693px;
   }
 }
 
-.margin-banner {
+.m-banner {
   margin: 25px 0 45px 0;
 }
 
@@ -13,4 +12,8 @@
   width: 445px;
   height: 338px;
   margin-top: 115px;
+}
+
+.mb-192 {
+  margin-bottom: 192px;
 }
