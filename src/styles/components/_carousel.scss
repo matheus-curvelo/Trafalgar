@@ -1,0 +1,64 @@
+.carousel-div {
+    padding: 64px 118px 79px;
+    color: $light;
+    border-radius: 24px;
+    background: linear-gradient(208.18deg, $primaryLight 9.05%, $primaryDark 76.74%);
+
+    .pt-31 {
+        padding-top: 31px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .h3-carousel {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+
+    .h4-carousel {
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    @media (max-width: $lgMin) { 
+
+        .h4-carousel {
+            padding: 40px 0;
+        }
+     }
+
+    .h5-carousel {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 42px;
+        color: $light;
+    }
+}
+
+@media (max-width: $mdMin) { 
+
+    .carousel-div {
+        padding: 64px 50px 79px;
+        color: $light;
+        border-radius: 24px;
+        background: linear-gradient(208.18deg, $primaryLight 9.05%, $primaryDark 76.74%);
+    }
+
+ }
+
+
+
+ @media (max-width: $smMin) { 
+
+    .carousel-div {
+        padding: 64px 10px 79px;
+        color: $light;
+        border-radius: 24px;
+        background: linear-gradient(208.18deg, $primaryLight 9.05%, $primaryDark 76.74%);
+    }
+
+ }

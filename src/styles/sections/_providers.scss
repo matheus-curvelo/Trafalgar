@@ -53,3 +53,11 @@
 .mb-266 {
   margin-bottom: 266px;
 }
+
+@media (max-width: $mdMin) { 
+
+  .mb-266 {
+    margin-bottom: 100px;
+
+  }
+}

@@ -1,0 +1,14 @@
+#feedbacks {
+    margin-bottom: 222px;
+    @media (max-width: $lgMin) { 
+
+        img {
+            display: block;
+            margin: auto;
+        }
+     }
+    
+    .title-line {
+        margin-bottom: 77px;
+    }
+}
