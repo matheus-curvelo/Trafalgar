@@ -1,21 +1,37 @@
 #header {
-  font-size: 18px;
-  display: flex;
-  align-items: center;
   padding: 55px 0;
-  a {
-    color: $dark2;
-    &:hover {
-      color: $primary;
+
+  .icon-header {
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    padding: 5px 6px 4px 13px;
+    background: $primary;
+    border: 3px solid $primary;
+    color: $light;
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    margin-right: 12px;
+  }
+
+  @media (max-width: $xsMax) {
+    .icon-header {
+      margin-right: 5px;
     }
   }
-}
-#header-logo {
-  width: 160px;
-}
-.navbar-nav {
-  margin-top: 20px;
 
+  a {
+    color: $dark2;
+    text-decoration: none;
+  }
+  h3 {
+    line-height: 0;
+    margin: 0;
+  }
+}
+
+.navbar-nav {
   li {
     margin: 0 12px;
   }
@@ -26,4 +42,10 @@
 .nav-buttons {
   opacity: 0.5;
   font-weight: 400;
+}
+
+@media (max-width: $mdMax) {
+  .navbar-nav {
+    margin-top: 20px;
+  }
 }

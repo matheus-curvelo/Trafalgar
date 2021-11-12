@@ -41,4 +41,18 @@
       padding-bottom: 70px;
     }
   }
+
+  .icon-footer {
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    padding: 5px 6px 4px 13px;
+    background: $light;
+    border: 3px solid $light;
+    color: $primary;
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    margin-right: 12px;
+  }
 }
