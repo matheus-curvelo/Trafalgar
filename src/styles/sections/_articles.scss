@@ -20,6 +20,12 @@
   h6 {
     padding: 12px 0 25px 0;
   }
+
+  @media (max-width: $lgMin) {
+    .mb-201 {
+      margin-bottom: 110px;
+    }
+  }
 }
 
 .mt-69 {

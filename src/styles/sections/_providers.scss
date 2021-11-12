@@ -6,6 +6,9 @@
       margin-right: auto;
     }
   }
+  i {
+    margin-left: 14px;
+  }
 }
 
 @media (min-width: $mdMax) {
@@ -26,6 +29,10 @@
   }
 }
 
+.mb-266 {
+  margin-bottom: 266px;
+}
+
 @media (max-width: $lgMin) {
   .m-img-1,
   .m-img-2 {
@@ -44,20 +51,11 @@
   .mt-220 {
     margin-top: 100px;
   }
+  .mb-266 {
+    margin-bottom: 140px;
+  }
 }
 
 .mt-37 {
   margin-top: 37px;
-}
-
-.mb-266 {
-  margin-bottom: 266px;
-}
-
-@media (max-width: $mdMin) { 
-
-  .mb-266 {
-    margin-bottom: 100px;
-
-  }
 }
