@@ -1,0 +1,23 @@
+#articles {
+    .cards-services {
+        min-height: 279px;
+        padding: 21px 51px 35px 33px;
+        background: $light;
+        border-radius: 0 0 20px 20px;
+    }
+    h4 {
+        font-weight: 700;
+        color: $dark;
+    }
+    a {
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    i {
+        padding: 0 8px;
+    }
+    h6 {
+        padding: 12px 0 25px 0;
+    }
+}
