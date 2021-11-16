@@ -46,17 +46,10 @@
   padding: 0 9px;
 }
 
-.arrow-control {
-  margin: 0 83px;
-}
-
 .controls-carousel {
   margin-top: 42px;
 
   @media (max-width: 575.98px) {
-    .arrow-control {
-      margin: 0 20px;
-    }
     .carousel-div {
       padding: 64px 10px 79px;
     }
@@ -72,5 +65,34 @@
 @media (max-width: $smMin) {
   .carousel-div {
     padding: 64px 10px 79px;
+  }
+}
+
+
+
+
+#myCarousel {
+  .fas {
+    color: $blue2;
+  }
+  
+  .fa-arrow-left {
+    margin-top: 550px;
+    margin-left: 780px;
+  }
+  
+  .fa-arrow-right {
+    margin-top: 550px;
+    margin-right: 780px;
+  }
+  
+  
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0;
+    margin: 0 9px;
+    background-color: $blue2;
   }
 }

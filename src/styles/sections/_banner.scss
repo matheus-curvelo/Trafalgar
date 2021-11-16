@@ -1,6 +1,6 @@
 #banner {
   img {
-    width: 693px;
+    width: 100%;
   }
 
   @media (max-width: $mdMax) {
@@ -36,13 +36,13 @@
 }
 
 @media (min-width: $mdMax) {
-  .mb-192 {
+  #banner {
     margin-bottom: 192px;
   }
 }
 
 @media (max-width: $lgMin) {
-  .mb-192 {
+  #banner {
     margin-bottom: 60px;
   }
 }
