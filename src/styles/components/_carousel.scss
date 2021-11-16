@@ -68,31 +68,55 @@
   }
 }
 
-
-
-
-#myCarousel {
-  .fas {
-    color: $blue2;
-  }
-  
-  .fa-arrow-left {
-    margin-top: 550px;
-    margin-left: 780px;
-  }
-  
-  .fa-arrow-right {
-    margin-top: 550px;
-    margin-right: 780px;
-  }
-  
-  
-  .carousel-indicators [data-bs-target] {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: 0;
-    margin: 0 9px;
-    background-color: $blue2;
-  }
+.buttons-carousel {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
 }
+
+.control-carousel {
+  color: $blue;
+  border: none;
+  background: none;
+}
+
+.dot-button-carousel {
+  margin: 0 9px;
+}
+
+.control-carousel:hover {
+  color: $blue2;
+}
+
+.control-carousel-left {
+  margin-right: 83px;
+}
+
+.control-carousel-right {
+  margin-left: 83px;
+}
+
+// #myCarousel {
+//   .fas {
+//     color: $blue2;
+//   }
+
+//   .fa-arrow-left {
+//     margin-top: 550px;
+//     margin-left: 780px;
+//   }
+
+//   .fa-arrow-right {
+//     margin-top: 550px;
+//     margin-right: 780px;
+//   }
+
+//   .carousel-indicators [data-bs-target] {
+//     width: 10px;
+//     height: 10px;
+//     border-radius: 50%;
+//     border: 0;
+//     margin: 0 9px;
+//     background-color: $blue2;
+//   }
+// }
