@@ -96,27 +96,28 @@
   margin-left: 83px;
 }
 
-// #myCarousel {
-//   .fas {
-//     color: $blue2;
-//   }
+.dot-button-carousel {
+  .fas {
+    font-size: 10px;
+  }
+}
 
-//   .fa-arrow-left {
-//     margin-top: 550px;
-//     margin-left: 780px;
-//   }
+.control-carousel-left, .control-carousel-right {
+  .fas {
+    font-size: 18px;
+  }
+}
 
-//   .fa-arrow-right {
-//     margin-top: 550px;
-//     margin-right: 780px;
-//   }
+@media (max-width: $smMax) { 
+  .control-carousel-left {
+    margin-right: 20px;
+  }
+  
+  .control-carousel-right {
+    margin-left: 20px;
+  }
 
-//   .carousel-indicators [data-bs-target] {
-//     width: 10px;
-//     height: 10px;
-//     border-radius: 50%;
-//     border: 0;
-//     margin: 0 9px;
-//     background-color: $blue2;
-//   }
-// }
+  .dot-button-carousel {
+    margin: 0 4px;
+  }
+ }
