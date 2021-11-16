@@ -121,3 +121,9 @@
     margin: 0 4px;
   }
  }
+
+ @media (max-width: $mdMax) { 
+  .mb-50 {
+    margin-bottom: 50px;
+  }
+ }
