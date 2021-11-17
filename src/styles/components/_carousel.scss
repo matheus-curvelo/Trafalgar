@@ -120,6 +120,16 @@
   margin-left: 91px;
 }
 
+@media (max-width: $xsMax) { 
+  .control-carousel-left {
+    margin-right: 40px;
+  }
+  
+  .control-carousel-right {
+    margin-left: 40px;
+  }
+ }
+
 // @media (max-width: $smMax) { 
 
 //   .dot-button-carousel {
