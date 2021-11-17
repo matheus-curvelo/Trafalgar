@@ -1,4 +1,13 @@
 #articles {
+  background-image: url(sections/bg02.png);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: 100% 0%;
+
+  @media (max-width: $lgMax) {
+    background-image: none;
+  }
+
   .cards-services {
     margin: 0 5px;
     min-height: 279px;

@@ -1,5 +1,15 @@
 #feedbacks {
   margin-bottom: 222px;
+
+  background-image: url(sections/bg03.png);
+  background-repeat: no-repeat;
+  background-size: 81px;
+  background-position: 17% 75%;
+
+  @media (max-width: $lgMax) {
+    background-image: none;
+  }
+
   @media (max-width: $lgMin) {
     img {
       display: block;

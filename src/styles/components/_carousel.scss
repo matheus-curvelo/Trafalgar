@@ -66,12 +66,21 @@
   .carousel-div {
     padding: 64px 10px 79px;
   }
+
 }
 
 .buttons-carousel {
   display: flex;
   justify-content: center;
   margin-top: 42px;
+
+  svg {
+    opacity: 0.4;
+  }
+  
+  svg:hover {
+    opacity: 1;
+  }
 }
 
 .control-carousel {
@@ -80,50 +89,46 @@
   background: none;
 }
 
+.dots-carousel {
+  display: flex;
+  justify-content: center;
+}
+
 .dot-button-carousel {
   margin: 0 9px;
-}
+  opacity: 0.4;
+  padding: 0;
 
-.control-carousel:hover {
-  color: $blue2;
-}
-
-.control-carousel-left {
-  margin-right: 83px;
-}
-
-.control-carousel-right {
-  margin-left: 83px;
-}
-
-.dot-button-carousel {
   .fas {
     font-size: 10px;
   }
 }
 
-.control-carousel-left, .control-carousel-right {
-  .fas {
-    font-size: 18px;
-  }
+.dot-button-carousel:hover {
+  opacity: 1;
 }
 
-@media (max-width: $smMax) { 
-  .control-carousel-left {
-    margin-right: 20px;
-  }
-  
-  .control-carousel-right {
-    margin-left: 20px;
-  }
+.control-carousel-left, .control-carousel-right {
+  padding: 0;
+}
 
-  .dot-button-carousel {
-    margin: 0 4px;
-  }
- }
+.control-carousel-left {
+  margin-right: 91px;
+}
 
- @media (max-width: $mdMax) { 
-  .mb-50 {
-    margin-bottom: 50px;
-  }
- }
+.control-carousel-right {
+  margin-left: 91px;
+}
+
+// @media (max-width: $smMax) { 
+
+//   .dot-button-carousel {
+//     margin: 0 4px;
+//   }
+//  }
+
+//  @media (max-width: $mdMax) { 
+//   .mb-50 {
+//     margin-bottom: 50px;
+//   }
+//  }

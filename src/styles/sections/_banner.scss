@@ -1,4 +1,12 @@
 #banner {
+  background-image: url(sections/bg03.png);
+  background-repeat: no-repeat;
+  background-size: 81px;
+  background-position: 0% 0%;
+
+  @media (max-width: $lgMax) {
+    background-image: none;
+  }
   img {
     width: 100%;
   }

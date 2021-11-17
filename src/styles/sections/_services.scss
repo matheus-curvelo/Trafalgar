@@ -1,11 +1,22 @@
-@media (min-width: $mdMax) {
-  .mb-80 {
-    margin-bottom: 80px;
-  }
-}
+#services {
+  background-image: url(sections/bg01.png);
+  background-repeat: no-repeat;
+  background-size: 900px;
+  background-position-y: 50%;
+  background-position-x: 0%;
 
-@media (max-width: $lgMin) {
-  .mb-80 {
-    margin-bottom: 20px;
+  @media (max-width: $lgMax) {
+    background-image: none;
+  }
+  @media (min-width: $mdMax) {
+    .mb-80 {
+      margin-bottom: 80px;
+    }
+  }
+
+  @media (max-width: $lgMin) {
+    .mb-80 {
+      margin-bottom: 20px;
+    }
   }
 }
