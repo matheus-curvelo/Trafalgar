@@ -41,6 +41,15 @@
       margin-bottom: 110px;
     }
   }
+
+  .bg-article {
+    background: url("images/bg04.png") no-repeat 0% 9%;
+    background-size: 100px;
+
+    @media (max-width: $lgMax) {
+      background-image: none;
+    }
+  }
 }
 
 .mt-69 {
@@ -54,3 +63,4 @@
 .mb-50 {
   margin-bottom: 50px;
 }
+

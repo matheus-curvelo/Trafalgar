@@ -1,25 +1,21 @@
 #feedbacks {
-  margin-bottom: 222px;
+  margin-bottom: 110px;
 
-  background-image: url("images/bg03.png");
-  background-repeat: no-repeat;
-  background-size: 81px;
-  background-position: 17% 75%;
+  background: url("images/bg04.png") no-repeat 19.5% 75%;
+  background-size: 100px;
 
   @media (max-width: $lgMax) {
     background-image: none;
   }
-
   @media (max-width: $lgMin) {
     img {
       display: block;
       margin: auto;
     }
+}
 
-    margin-bottom: 110px;
-  }
-
-  .title-line {
-    margin-bottom: 77px;
-  }
+.title-line {
+  margin-bottom: 77px;
+  
+}
 }
