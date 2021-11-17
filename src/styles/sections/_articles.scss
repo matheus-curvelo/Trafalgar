@@ -1,6 +1,6 @@
 #articles {
+  background: url("images/bg02.png") no-repeat 100% 0%;
   background-size: 700px;
-  background: url(sections/bg02.png) no-repeat 100% 0%;
 
   @media (max-width: $lgMax) {
     background-image: none;

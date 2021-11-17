@@ -1,6 +1,7 @@
 #services {
-  background-size: 900px;
-  background: url("sections/bg01.png") no-repeat 0% 50%;
+  background: url("images/bg01.png") no-repeat 0% 50%;
+  background-size: 800px;
+
 
   @media (max-width: $lgMax) {
     background-image: none;
