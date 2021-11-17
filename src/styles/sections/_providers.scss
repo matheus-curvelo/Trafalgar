@@ -1,8 +1,6 @@
 #providers {
-  background-image: url(sections/bg03.png);
-  background-repeat: no-repeat;
   background-size: 81px;
-  background-position: 100% 50%;
+  background: url("sections/bg03.png") no-repeat 100% 50%;
 
   @media (max-width: $lgMax) {
     background-image: none;

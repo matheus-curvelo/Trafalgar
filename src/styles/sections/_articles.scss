@@ -1,8 +1,6 @@
 #articles {
-  background-image: url(sections/bg02.png);
-  background-repeat: no-repeat;
   background-size: 700px;
-  background-position: 100% 0%;
+  background: url(sections/bg02.png) no-repeat 100% 0%;
 
   @media (max-width: $lgMax) {
     background-image: none;
@@ -46,7 +44,6 @@
 }
 
 .mt-69 {
-  margin-top: 69px;
   margin-top: 19px;
 }
 

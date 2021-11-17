@@ -1,8 +1,6 @@
 #banner {
-  background-image: url(sections/bg03.png);
-  background-repeat: no-repeat;
   background-size: 81px;
-  background-position: 0% 0%;
+  background: url("sections/bg03.png") no-repeat 0% 0%;
 
   @media (max-width: $lgMax) {
     background-image: none;
