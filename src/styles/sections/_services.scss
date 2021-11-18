@@ -2,6 +2,10 @@
   background: url("images/bg01.png") no-repeat 0% 50%;
   background-size: 800px;
 
+  .max-width-952 {
+    max-width: 952px;
+  }
+
   @media (max-width: $lgMax) {
     background-image: none;
   }

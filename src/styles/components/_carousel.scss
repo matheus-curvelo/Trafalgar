@@ -1,5 +1,5 @@
 .carousel-div {
-  padding: 64px 118px 79px;
+  padding: 0;
   color: $light;
   border-radius: 24px;
   background: linear-gradient(
@@ -66,7 +66,6 @@
   .carousel-div {
     padding: 64px 10px 79px;
   }
-
 }
 
 .buttons-carousel {
@@ -77,7 +76,7 @@
   svg {
     opacity: 0.4;
   }
-  
+
   svg:hover {
     opacity: 1;
   }
@@ -108,7 +107,8 @@
   opacity: 1;
 }
 
-.control-carousel-left, .control-carousel-right {
+.control-carousel-left,
+.control-carousel-right {
   padding: 0;
 }
 
@@ -120,25 +120,17 @@
   margin-left: 91px;
 }
 
-@media (max-width: $xsMax) { 
+@media (max-width: $xsMax) {
   .control-carousel-left {
     margin-right: 40px;
   }
-  
+
   .control-carousel-right {
     margin-left: 40px;
   }
- }
+}
 
-// @media (max-width: $smMax) { 
-
-//   .dot-button-carousel {
-//     margin: 0 4px;
-//   }
-//  }
-
-//  @media (max-width: $mdMax) { 
-//   .mb-50 {
-//     margin-bottom: 50px;
-//   }
-//  }
+.carousel-bg {
+  padding: 64px 118px 79px;
+  background: url("images/bg05.png") no-repeat 104% -6%;
+}
