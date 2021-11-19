@@ -133,4 +133,8 @@
 .carousel-bg {
   padding: 64px 118px 79px;
   background: url("images/bg05.png") no-repeat 104% -6%;
+
+  @media (max-width: $lgMax) {
+    background-image: none;
+  }
 }
