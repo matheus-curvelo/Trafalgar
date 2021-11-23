@@ -1,13 +1,7 @@
-.carousel-div {
+.carousel {
   padding: 0;
   color: $light;
-  border-radius: 24px;
-  background: linear-gradient(
-    208.18deg,
-    $primaryLight 9.05%,
-    $primaryDark 76.74%
-  );
-
+  
   .pt-31 {
     padding-top: 31px;
   }
@@ -26,10 +20,8 @@
     font-size: 19px;
     font-weight: 400;
     line-height: 30px;
-  }
 
-  @media (max-width: $lgMin) {
-    .h4-carousel {
+    @media (max-width: $lgMin) {
       padding: 40px 0;
     }
   }
@@ -40,101 +32,63 @@
     line-height: 42px;
     color: $light;
   }
-}
 
-.circle-control {
-  padding: 0 9px;
-}
+  .carousel-controls {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 42px;
+    align-items: center;
+    justify-content: space-around;
 
-.controls-carousel {
-  margin-top: 42px;
+    .carousel-indicators {
+      position: relative;
+      margin: 0;
 
-  @media (max-width: 575.98px) {
-    .carousel-div {
-      padding: 64px 10px 79px;
+      & [data-bs-target] {
+        width: unset;
+        height: unset;
+        text-indent: unset;
+      }
+    }
+
+    .control-carousel {
+      padding: 0;
+      color: $blue;
+      border: none;
+      background: none;
+      opacity: 0.4;
+      transition: all ease-in-out .3s;
+      
+      &:hover, &.active {
+        opacity: 1;
+      }
+    }
+  
+    .dot-button-carousel {
+      margin: 0 9px;
+      padding: 0;
+    
+      .fas {
+        font-size: 10px;
+      }
     }
   }
-}
-
-@media (max-width: $mdMin) {
-  .carousel-div {
-    padding: 64px 50px 79px;
-  }
-}
-
-@media (max-width: $smMin) {
-  .carousel-div {
-    padding: 64px 10px 79px;
-  }
-}
-
-.buttons-carousel {
-  display: flex;
-  justify-content: center;
-  margin-top: 42px;
-
-  svg {
-    opacity: 0.4;
-  }
-
-  svg:hover {
-    opacity: 1;
-  }
-}
-
-.control-carousel {
-  color: $blue;
-  border: none;
-  background: none;
-}
-
-.dots-carousel {
-  display: flex;
-  justify-content: center;
-}
-
-.dot-button-carousel {
-  margin: 0 9px;
-  opacity: 0.4;
-  padding: 0;
-
-  .fas {
-    font-size: 10px;
-  }
-}
-
-.dot-button-carousel:hover {
-  opacity: 1;
-}
-
-.control-carousel-left,
-.control-carousel-right {
-  padding: 0;
-}
-
-.control-carousel-left {
-  margin-right: 91px;
-}
-
-.control-carousel-right {
-  margin-left: 91px;
-}
-
-@media (max-width: $xsMax) {
-  .control-carousel-left {
-    margin-right: 40px;
-  }
-
-  .control-carousel-right {
-    margin-left: 40px;
-  }
-}
-
-.carousel-bg {
-  padding: 64px 118px 79px;
-  background: url("images/bg05.png") no-repeat 104% -6%;
-
-  @media (max-width: $lgMax) {
-    background-image: none;
+  
+  .carousel-bg {
+    padding: 64px 118px 79px;
+    border-radius: 24px;
+    background: url("images/bg05.png") no-repeat 104% -6%, linear-gradient(208.18deg, $primaryLight 9.05%, $primaryDark 76.74%);
+  
+    @media (max-width: $lgMax) {
+      background: linear-gradient(208.18deg, $primaryLight 9.05%, $primaryDark 76.74%);
+    }
+  
+    @media (max-width: $mdMin) {
+      padding: 64px 50px 79px;
+    }
+    
+    @media (max-width: $smMin) {
+      padding: 64px 10px 79px;
+    }
   }
 }
